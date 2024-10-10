@@ -10,10 +10,10 @@ a:hover {
   color: black;
 }
 
-#weathernews {
+#myweather {
   padding: 100px 0;
 }
-#weathernews .box {
+#myweather .box {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,18 +24,18 @@ a:hover {
   padding: 30px;
   text-align: center;
 }
-#weathernews .box h1, #weathernews .box h2 {
+#myweather .box h1, #myweather .box h2 {
   font-size: 23px;
   font-family: 500;
   margin-bottom: 25px;
   color: #ffffff;
 }
-#weathernews .box input {
+#myweather .box input {
   width: 160px;
   height: 38px;
   border-radius: 18px;
 }
-#weathernews .box .txt {
+#myweather .box .txt {
   width: 120px;
   height: 33px;
   background-color: #79afff;
@@ -43,7 +43,7 @@ a:hover {
   padding: 6px;
   margin-top: 25px;
 }
-#weathernews .box .txt h4 {
+#myweather .box .txt h4 {
   font-size: 19px;
   color: #ffffff;
   cursor: pointer;
