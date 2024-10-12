@@ -10,10 +10,10 @@ a:hover {
   color: black;
 }
 
-#myweather {
+#weather {
   padding: 100px 0;
 }
-#myweather .box {
+#weather .box {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,18 +24,23 @@ a:hover {
   padding: 30px;
   text-align: center;
 }
-#myweather .box h1, #myweather .box h2 {
+#weather .box .data h1, #weather .box .data h2 {
   font-size: 23px;
   font-family: 500;
   margin-bottom: 25px;
   color: #ffffff;
 }
-#myweather .box input {
+#weather .box .minibox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#weather .box .minibox input {
   width: 160px;
   height: 38px;
   border-radius: 18px;
 }
-#myweather .box .txt {
+#weather .box .minibox .txt {
   width: 120px;
   height: 33px;
   background-color: #79afff;
@@ -43,7 +48,7 @@ a:hover {
   padding: 6px;
   margin-top: 25px;
 }
-#myweather .box .txt h4 {
+#weather .box .minibox .txt h4 {
   font-size: 19px;
   color: #ffffff;
   cursor: pointer;
