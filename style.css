@@ -40,7 +40,7 @@ a:hover {
   height: 38px;
   border-radius: 18px;
 }
-#weather .box .minibox .txt {
+#weather .box .minibox #btn {
   width: 120px;
   height: 33px;
   background-color: #79afff;
@@ -48,7 +48,7 @@ a:hover {
   padding: 6px;
   margin-top: 25px;
 }
-#weather .box .minibox .txt h4 {
+#weather .box .minibox #btn h4 {
   font-size: 19px;
   color: #ffffff;
   cursor: pointer;
