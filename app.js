@@ -3,8 +3,8 @@ $(document).ready(function () {
 
 
     $(document).on('keypress', function (e) {
-        if (e.which == 13) {    
-            let url = `https://api.openweathermap.org/data/2.5/forecast?q=${$("#myweather").val()}&appid=529397dd240ccade9afb588a4e1185e3&units=metric`;
+        if (e.which == 13) {
+            let url = `https://api.openweathermap.org/data/2.5/weather?q=${$("#myweather").val()}&appid=050215f83eaa3500e1575b3890c5a60e`;
             async function myweather() {
                 let responce = await fetch(url);
                 let data = await responce.json();
@@ -21,7 +21,7 @@ $(document).ready(function () {
 
     $("#btn").click(function (e) {
         e.preventDefault();
-        let url = `https://api.openweathermap.org/data/2.5/forecast?q=${$("#myweather").val()}&appid=529397dd240ccade9afb588a4e1185e3&units=metric`;
+        let url = `https://api.openweathermap.org/data/2.5/weather?q=${$("#myweather").val()}&appid=050215f83eaa3500e1575b3890c5a60e`;
         async function myweather() {
             let responce = await fetch(url);
             let data = await responce.json();
