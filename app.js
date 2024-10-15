@@ -13,11 +13,11 @@ $(document).ready(function () {
                 $("#feels").html(data.main.feels_like);
                 $("#myweather").val("");
                 console.log(data);
-            }
+            };
             myweather();
-        }
+        };
 
-    })
+    });
 
     $("#btn").click(function (e) {
         e.preventDefault();
@@ -30,9 +30,9 @@ $(document).ready(function () {
             $("#feels").html(data.main.feels_like);
             $("#myweather").val("");
             console.log(data);
-        }
+        };
         myweather();
-    })
+    });
 
 
 });
