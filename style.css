@@ -17,8 +17,8 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 300px;
-  height: 410px;
+  width: 250px;
+  height: 370px;
   background-color: #a4caff;
   border-radius: 20px;
   padding: 30px;
@@ -46,7 +46,7 @@ a:hover {
   background-color: #79afff;
   border-radius: 19px;
   padding: 6px;
-  margin-top: 25px;
+  margin-top: 12px;
 }
 #weather .box .minibox #btn h4 {
   font-size: 19px;
