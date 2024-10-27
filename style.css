@@ -27,7 +27,7 @@ a:hover {
 #weather .box .data h1, #weather .box .data h2 {
   font-size: 23px;
   font-weight: 500;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   color: #ffffff;
 }
 #weather .box .minibox {
@@ -39,6 +39,7 @@ a:hover {
   width: 160px;
   height: 38px;
   border-radius: 18px;
+  margin-bottom: 10px;
 }
 #weather .box .minibox #btn {
   width: 120px;
